@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #f0f0f0; /* Light grey background for the body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% viewport height */
+}
+
+.container {
+    background-color: #3498db; /* Blue container background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+    border: 2px solid #2980b9; /* Border color */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.output {
+    text-align: left;
+}
+
+#outputPounds,
+#outputOunces {
+    font-weight: bold;
+}
